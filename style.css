@@ -14,6 +14,7 @@
     bottom: 0;
     left: 0;
     border-radius: 20px 0px;
+    box-shadow: 3px 6px 14px rgb(87, 75, 75);
     position: absolute;
     animation: moveUp 3s linear infinite; /*Example animation*/
 
@@ -24,6 +25,7 @@
     height: 60px;
     border-radius: 20px 0px;
     background-color: green;
+    box-shadow: 3px 6px 14px rgb(87, 75, 75);
     position: absolute;
     bottom: 0;
     right: 0;
