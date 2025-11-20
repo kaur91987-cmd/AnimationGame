@@ -1,4 +1,4 @@
-const player = document.getElementById('player');
+const player = document.getElementById('moveUp');
 const gameContainer = document.getElementById('game-container');
 let playerPosition = 50;
 
