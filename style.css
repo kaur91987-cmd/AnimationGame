@@ -13,7 +13,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    border-radius: 10px 0px;
+    border-radius: 20px 0px;
     position: absolute;
     animation: moveUp 3s linear infinite; /*Example animation*/
 
@@ -22,7 +22,7 @@
 #obstacle {
     width: 60px;
     height: 60px;
-    border-radius: 10px 0px;
+    border-radius: 20px 0px;
     background-color: green;
     position: absolute;
     bottom: 0;
@@ -31,9 +31,9 @@
 }
 @keyframes  moveObstacle{
     from {top:0; right: 0; }
-    to { top:100%; right: 800px; }
+    to { top:100%; right: 800px; border-radius: 0px 20px;}
 }
 @keyframes moveUp {
     from {top:100%; right: 0; }
-    to { top:0; left: 800px; }
+    to { top:0; left: 800px; border-radius: 0px 20px;}
 }
